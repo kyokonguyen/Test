@@ -1,0 +1,856 @@
+{
+  "Border Radius": {
+    "border-radius-lg": {
+      "$type": "number",
+      "$value": "{Border Radius.border-radius-lg}"
+    },
+    "border-radius-md": {
+      "$type": "number",
+      "$value": "{Border Radius.border-radius-md}"
+    },
+    "border-radius-sm": {
+      "$type": "number",
+      "$value": "{Border Radius.border-radius-sm}"
+    },
+    "border-radius-xl": {
+      "$type": "number",
+      "$value": "{Border Radius.border-radius-xl}"
+    },
+    "border-radius-xs": {
+      "$type": "number",
+      "$value": "{Border Radius.border-radius-xs}"
+    },
+    "border-round": {
+      "$type": "number",
+      "$value": "{Border Radius.border-round}"
+    }
+  },
+  "Color Palette Ayita": {
+    "error-dark": {
+      "$type": "color",
+      "$value": "{Color.Error.error-600}",
+      "$description": "Alternative dark shade"
+    },
+    "error-light": {
+      "$type": "color",
+      "$value": "{Color.Error.error-400}",
+      "$description": "Alternative light shade"
+    },
+    "error-main": {
+      "$type": "color",
+      "$value": "{Color.Error.error-500}",
+      "$description": "Used for alert component"
+    },
+    "error-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-32}"
+    },
+    "error-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-38}"
+    },
+    "error-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-16}"
+    },
+    "error-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-8}"
+    },
+    "error-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-24}"
+    },
+    "gray-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-32}"
+    },
+    "gray-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-38}"
+    },
+    "gray-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-16}"
+    },
+    "gray-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-8}"
+    },
+    "gray-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-24}"
+    },
+    "info-dark": {
+      "$type": "color",
+      "$value": "{Color.Info.info-600}",
+      "$description": "Alternative dark shade"
+    },
+    "info-light": {
+      "$type": "color",
+      "$value": "{Color.Info.info-400}",
+      "$description": "Alternative light shade"
+    },
+    "info-main": {
+      "$type": "color",
+      "$value": "{Color.Info.info-500}",
+      "$description": "Used for alert component"
+    },
+    "info-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-32}"
+    },
+    "info-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-38}"
+    },
+    "info-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-16}"
+    },
+    "info-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-8}"
+    },
+    "info-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-24}"
+    },
+    "primary-dark": {
+      "$type": "color",
+      "$value": "{Color.Primary Ayita.primary-600}",
+      "$description": "Alternative dark shade"
+    },
+    "primary-light": {
+      "$type": "color",
+      "$value": "{Color.Primary Ayita.primary-400}",
+      "$description": "Alternative light shade"
+    },
+    "primary-main": {
+      "$type": "color",
+      "$value": "{Color.Primary Ayita.primary-500}",
+      "$description": "Main color used by most components"
+    },
+    "primary-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-32}"
+    },
+    "primary-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-38}"
+    },
+    "primary-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-16}"
+    },
+    "primary-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-8}"
+    },
+    "primary-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-24}"
+    },
+    "secondary-dark": {
+      "$type": "color",
+      "$value": "{Color.Secondary.secondary-600}",
+      "$description": "Alternative dark shade"
+    },
+    "secondary-light": {
+      "$type": "color",
+      "$value": "{Color.Secondary.secondary-400}",
+      "$description": "Alternative light shade"
+    },
+    "secondary-main": {
+      "$type": "color",
+      "$value": "{Color.Secondary.secondary-500}",
+      "$description": "Secondary color used by most components"
+    },
+    "secondary-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-32}"
+    },
+    "secondary-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-38}"
+    },
+    "secondary-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-16}"
+    },
+    "secondary-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-8}"
+    },
+    "secondary-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-24}"
+    },
+    "success-dark": {
+      "$type": "color",
+      "$value": "{Color.Success.success-600}",
+      "$description": "Alternative dark shade"
+    },
+    "success-light": {
+      "$type": "color",
+      "$value": "{Color.Success.success-400}",
+      "$description": "Alternative light shade"
+    },
+    "success-main": {
+      "$type": "color",
+      "$value": "{Color.Success.success-500}",
+      "$description": "Used for alert component"
+    },
+    "success-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-32}"
+    },
+    "success-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-38}"
+    },
+    "success-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-16}"
+    },
+    "success-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-8}"
+    },
+    "success-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-24}"
+    },
+    "warning-dark": {
+      "$type": "color",
+      "$value": "{Color.Warning.warning-600}",
+      "$description": "Alternative dark shade"
+    },
+    "warning-light": {
+      "$type": "color",
+      "$value": "{Color.Warning.warning-400}",
+      "$description": "Alternative light shade"
+    },
+    "warning-main": {
+      "$type": "color",
+      "$value": "{Color.Warning.warning-500}",
+      "$description": "Used for alert component"
+    },
+    "warning-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-32}"
+    },
+    "warning-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-38}"
+    },
+    "warning-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-16}"
+    },
+    "warning-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-8}"
+    },
+    "warning-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-24}"
+    }
+  },
+  "Color Palette Pamola": {
+    "error-dark": {
+      "$type": "color",
+      "$value": "{Color.Error.error-600}",
+      "$description": "Alternative dark shade"
+    },
+    "error-light": {
+      "$type": "color",
+      "$value": "{Color.Error.error-400}",
+      "$description": "Alternative light shade"
+    },
+    "error-main": {
+      "$type": "color",
+      "$value": "{Color.Error.error-500}",
+      "$description": "Used for alert component"
+    },
+    "error-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-32}"
+    },
+    "error-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-38}"
+    },
+    "error-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-16}"
+    },
+    "error-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-8}"
+    },
+    "error-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Error.error-24}"
+    },
+    "gray-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-32}"
+    },
+    "gray-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-38}"
+    },
+    "gray-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-16}"
+    },
+    "gray-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-8}"
+    },
+    "gray-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Gray.gray-24}"
+    },
+    "info-dark": {
+      "$type": "color",
+      "$value": "{Color.Info.info-600}",
+      "$description": "Alternative dark shade"
+    },
+    "info-light": {
+      "$type": "color",
+      "$value": "{Color.Info.info-400}",
+      "$description": "Alternative light shade"
+    },
+    "info-main": {
+      "$type": "color",
+      "$value": "{Color.Info.info-500}",
+      "$description": "Used for alert component"
+    },
+    "info-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-32}"
+    },
+    "info-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-38}"
+    },
+    "info-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-16}"
+    },
+    "info-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-8}"
+    },
+    "info-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Info.info-24}"
+    },
+    "primary-dark": {
+      "$type": "color",
+      "$value": "{Color.Primary Ayita.primary-600}",
+      "$description": "Alternative dark shade"
+    },
+    "primary-light": {
+      "$type": "color",
+      "$value": "{Color.Primary Ayita.primary-400}",
+      "$description": "Alternative light shade"
+    },
+    "primary-main": {
+      "$type": "color",
+      "$value": "{Color.Primary Ayita.primary-500}",
+      "$description": "Main color used by most components"
+    },
+    "primary-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-32}"
+    },
+    "primary-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-38}"
+    },
+    "primary-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-16}"
+    },
+    "primary-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-8}"
+    },
+    "primary-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Primary Ayita.primary-24}"
+    },
+    "secondary-dark": {
+      "$type": "color",
+      "$value": "{Color.Secondary.secondary-600}",
+      "$description": "Alternative dark shade"
+    },
+    "secondary-light": {
+      "$type": "color",
+      "$value": "{Color.Secondary.secondary-400}",
+      "$description": "Alternative light shade"
+    },
+    "secondary-main": {
+      "$type": "color",
+      "$value": "{Color.Secondary.secondary-500}",
+      "$description": "Secondary color used by most components"
+    },
+    "secondary-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-32}"
+    },
+    "secondary-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-38}"
+    },
+    "secondary-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-16}"
+    },
+    "secondary-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-8}"
+    },
+    "secondary-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Secondary.secondary-24}"
+    },
+    "success-dark": {
+      "$type": "color",
+      "$value": "{Color.Success.success-600}",
+      "$description": "Alternative dark shade"
+    },
+    "success-light": {
+      "$type": "color",
+      "$value": "{Color.Success.success-400}",
+      "$description": "Alternative light shade"
+    },
+    "success-main": {
+      "$type": "color",
+      "$value": "{Color.Success.success-500}",
+      "$description": "Used for alert component"
+    },
+    "success-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-32}"
+    },
+    "success-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-38}"
+    },
+    "success-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-16}"
+    },
+    "success-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-8}"
+    },
+    "success-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Success.success-24}"
+    },
+    "warning-dark": {
+      "$type": "color",
+      "$value": "{Color.Warning.warning-600}",
+      "$description": "Alternative dark shade"
+    },
+    "warning-light": {
+      "$type": "color",
+      "$value": "{Color.Warning.warning-400}",
+      "$description": "Alternative light shade"
+    },
+    "warning-main": {
+      "$type": "color",
+      "$value": "{Color.Warning.warning-500}",
+      "$description": "Used for alert component"
+    },
+    "warning-opacity-dark": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-32}"
+    },
+    "warning-opacity-darker": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-38}"
+    },
+    "warning-opacity-light": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-16}"
+    },
+    "warning-opacity-lighter": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-8}"
+    },
+    "warning-opacity-main": {
+      "$type": "color",
+      "$value": "{Opacity Color.Warning.warning-24}"
+    }
+  },
+  "Gap": {
+    "gap-1": {
+      "$type": "number",
+      "$value": "{Gap.gap-1}"
+    },
+    "gap-10": {
+      "$type": "number",
+      "$value": "{Gap.gap-10}"
+    },
+    "gap-11": {
+      "$type": "number",
+      "$value": "{Gap.gap-11}"
+    },
+    "gap-12": {
+      "$type": "number",
+      "$value": "{Gap.gap-12}"
+    },
+    "gap-13": {
+      "$type": "number",
+      "$value": "{Gap.gap-13}"
+    },
+    "gap-14": {
+      "$type": "number",
+      "$value": "{Gap.gap-14}"
+    },
+    "gap-15": {
+      "$type": "number",
+      "$value": "{Gap.gap-15}"
+    },
+    "gap-16": {
+      "$type": "number",
+      "$value": "{Gap.gap-16}"
+    },
+    "gap-2": {
+      "$type": "number",
+      "$value": "{Gap.gap-2}"
+    },
+    "gap-3": {
+      "$type": "number",
+      "$value": "{Gap.gap-3}"
+    },
+    "gap-4": {
+      "$type": "number",
+      "$value": "{Gap.gap-4}"
+    },
+    "gap-5": {
+      "$type": "number",
+      "$value": "{Gap.gap-5}"
+    },
+    "gap-6": {
+      "$type": "number",
+      "$value": "{Gap.gap-6}"
+    },
+    "gap-7": {
+      "$type": "number",
+      "$value": "{Gap.gap-7}"
+    },
+    "gap-8": {
+      "$type": "number",
+      "$value": "{Gap.gap-8}"
+    },
+    "gap-9": {
+      "$type": "number",
+      "$value": "{Gap.gap-9}"
+    }
+  },
+  "Misc Ayita": {
+    "avatar-bg": {
+      "$type": "color",
+      "$value": "#373A3A"
+    },
+    "bg-black": {
+      "$type": "color",
+      "$value": "#212121"
+    },
+    "bg-facebook": {
+      "$type": "color",
+      "$value": "#4267B2"
+    },
+    "bg-linkedin": {
+      "$type": "color",
+      "$value": "#007BB6"
+    },
+    "bg-twitter": {
+      "$type": "color",
+      "$value": "#1DA1F2"
+    },
+    "bg-white": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "body-bg": {
+      "$type": "color",
+      "$value": "#AEABAB"
+    },
+    "card-footer": {
+      "$type": "number",
+      "$value": 20
+    },
+    "card-header": {
+      "$type": "number",
+      "$value": 20
+    },
+    "card-padding": {
+      "$type": "number",
+      "$value": 20
+    },
+    "chat-bg": {
+      "$type": "color",
+      "$value": "#313030"
+    },
+    "container-xl": {
+      "$type": "number",
+      "$value": 1140
+    },
+    "form-gap": {
+      "$type": "number",
+      "$value": 20
+    },
+    "grey-light": {
+      "$type": "color",
+      "$value": "#242424"
+    },
+    "paper": {
+      "$type": "color",
+      "$value": "#282828"
+    },
+    "snackbar": {
+      "$type": "color",
+      "$value": "#F7F4FF",
+      "$description": "Snackbar background color"
+    },
+    "table-header": {
+      "$type": "color",
+      "$value": "#303030"
+    },
+    "track-bg": {
+      "$type": "color",
+      "$value": "#373A3A"
+    }
+  },
+  "Misc Pamola": {
+    "avatar-bg": {
+      "$type": "color",
+      "$value": "#373A3A"
+    },
+    "bg-black": {
+      "$type": "color",
+      "$value": "#212121"
+    },
+    "bg-facebook": {
+      "$type": "color",
+      "$value": "#4267B2"
+    },
+    "bg-linkedin": {
+      "$type": "color",
+      "$value": "#007BB6"
+    },
+    "bg-twitter": {
+      "$type": "color",
+      "$value": "#1DA1F2"
+    },
+    "bg-white": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "body-bg": {
+      "$type": "color",
+      "$value": "#AEABAB"
+    },
+    "card-footer": {
+      "$type": "number",
+      "$value": 20
+    },
+    "card-header": {
+      "$type": "number",
+      "$value": 20
+    },
+    "card-padding": {
+      "$type": "number",
+      "$value": 20
+    },
+    "chat-bg": {
+      "$type": "color",
+      "$value": "#242424"
+    },
+    "container-xl": {
+      "$type": "number",
+      "$value": 1140
+    },
+    "form-gap": {
+      "$type": "number",
+      "$value": 20
+    },
+    "grey-light": {
+      "$type": "color",
+      "$value": "#252B37"
+    },
+    "paper": {
+      "$type": "color",
+      "$value": "#1F242E"
+    },
+    "snackbar": {
+      "$type": "color",
+      "$value": "#F7F4FF",
+      "$description": "Snackbar background color"
+    },
+    "table-header": {
+      "$type": "color",
+      "$value": "#2B323F"
+    },
+    "track-bg": {
+      "$type": "color",
+      "$value": "#252B37"
+    }
+  },
+  "Padding": {
+    "p-1": {
+      "$type": "number",
+      "$value": "{Padding.padding-1}"
+    },
+    "p-10": {
+      "$type": "number",
+      "$value": "{Padding.padding-10}"
+    },
+    "p-11": {
+      "$type": "number",
+      "$value": "{Padding.padding-11}"
+    },
+    "p-12": {
+      "$type": "number",
+      "$value": "{Padding.padding-12}"
+    },
+    "p-13": {
+      "$type": "number",
+      "$value": "{Padding.padding-13}"
+    },
+    "p-14": {
+      "$type": "number",
+      "$value": "{Padding.padding-14}"
+    },
+    "p-15": {
+      "$type": "number",
+      "$value": "{Padding.padding-15}"
+    },
+    "p-16": {
+      "$type": "number",
+      "$value": "{Padding.padding-16}"
+    },
+    "p-2": {
+      "$type": "number",
+      "$value": "{Padding.padding-2}"
+    },
+    "p-25": {
+      "$type": "number",
+      "$value": "{Padding.padding-25}"
+    },
+    "p-3": {
+      "$type": "number",
+      "$value": "{Padding.padding-3}"
+    },
+    "p-4": {
+      "$type": "number",
+      "$value": "{Padding.padding-4}"
+    },
+    "p-5": {
+      "$type": "number",
+      "$value": "{Padding.padding-5}"
+    },
+    "p-6": {
+      "$type": "number",
+      "$value": "{Padding.padding-6}"
+    },
+    "p-7": {
+      "$type": "number",
+      "$value": "{Padding.padding-7}"
+    },
+    "p-8": {
+      "$type": "number",
+      "$value": "{Padding.padding-8}"
+    },
+    "p-9": {
+      "$type": "number",
+      "$value": "{Padding.padding-9}"
+    }
+  },
+  "Theme": {
+    "action-active": {
+      "$type": "color",
+      "$value": "#dbdbdb99",
+      "$description": "Fill color for components in active state (List, Table, etc)"
+    },
+    "action-disabled": {
+      "$type": "color",
+      "$value": "#dbdbdb4d",
+      "$description": "Content color for components in disabled state (Button, List, Table, etc)"
+    },
+    "action-disabled-bg": {
+      "$type": "color",
+      "$value": "#dbdbdb29",
+      "$description": "Fill background for components in disabled state (List, Table, etc)"
+    },
+    "action-focus": {
+      "$type": "color",
+      "$value": "#dbdbdb1a",
+      "$description": "Fill background for components in focus state (List, Table, etc)"
+    },
+    "action-hover": {
+      "$type": "color",
+      "$value": "#3e73c826",
+      "$description": "Fill background for components in hover state (List, Table, etc)"
+    },
+    "action-selected": {
+      "$type": "color",
+      "$value": "#dbdbdb0d",
+      "$description": "Fill background for components in selected state (List, Table, etc)"
+    },
+    "backdrop-overlay": {
+      "$type": "color",
+      "$value": "#21212199",
+      "$description": "Backdrop overlay style"
+    },
+    "chip-background": {
+      "$type": "color",
+      "$value": "#dbdbdb14"
+    },
+    "divider": {
+      "$type": "color",
+      "$value": "#dbdbdb1f",
+      "$description": "Divider fill color"
+    },
+    "filled-input-bg": {
+      "$type": "color",
+      "$value": "#dbdbdb0f"
+    },
+    "input-border": {
+      "$type": "color",
+      "$value": "#dbdbdb38",
+      "$description": "Border style for standard variant Text Field & Select"
+    },
+    "outline-border": {
+      "$type": "color",
+      "$value": "#dbdbdb3d"
+    },
+    "text-disabled": {
+      "$type": "color",
+      "$value": "#dbdbdb66"
+    },
+    "text-primary": {
+      "$type": "color",
+      "$value": "#dbdbdbe6",
+      "$description": "Text primary"
+    },
+    "text-secondary": {
+      "$type": "color",
+      "$value": "#dbdbdbb3",
+      "$description": "Text secondary"
+    },
+    "text-subtitle": {
+      "$type": "color",
+      "$value": "#dbdbdb8c",
+      "$description": "Text primary"
+    }
+  }
+}
